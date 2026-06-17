@@ -17,8 +17,6 @@ redirecionamento e atualização em tempo real.
 | 💻 **Repositório do front-end** | `https://github.com/lucas-kauanogb/acai-tropical` |
 | 🗃️ **Repositório do banco-json** | `https://github.com/lucas-kauanogb/banco-json` |
 
-> Substitua os links acima pelos endereços reais gerados nos seus deploys.
-
 ---
 
 ## 1. Visão Geral
