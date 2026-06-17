@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7e3cb0"/>
+      <stop offset="1" stop-color="#3a1457"/>
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="120" fill="url(#lg)"/>
+  <!-- folha -->
+  <path d="M150 60 C190 60 210 90 200 120 C170 120 145 100 150 60 Z" fill="#7cc04a"/>
+  <path d="M150 60 C170 80 185 100 200 120" stroke="#4e8a2c" stroke-width="4" fill="none"/>
+  <!-- tigela -->
+  <path d="M64 138 h128 a64 64 0 0 1 -128 0 Z" fill="#fbf3e0"/>
+  <ellipse cx="128" cy="138" rx="64" ry="20" fill="#5b1d8a"/>
+  <ellipse cx="128" cy="136" rx="64" ry="18" fill="#3a1457"/>
+  <!-- toppings -->
+  <circle cx="104" cy="132" r="7" fill="#ffd23f"/>
+  <circle cx="128" cy="128" r="7" fill="#ff5b7f"/>
+  <circle cx="152" cy="133" r="7" fill="#7cc04a"/>
+  <circle cx="116" cy="140" r="5" fill="#fff"/>
+  <circle cx="142" cy="140" r="5" fill="#fff"/>
+</svg>

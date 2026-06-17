@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7e3cb0"/>
+      <stop offset="1" stop-color="#3a1457"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#g1)"/>
+  <g opacity="0.12" fill="#fff">
+    <circle cx="60" cy="60" r="40"/><circle cx="350" cy="250" r="55"/>
+  </g>
+  <!-- tigela -->
+  <path d="M120 150 h160 a80 80 0 0 1 -160 0 Z" fill="#fbf3e0"/>
+  <ellipse cx="200" cy="150" rx="80" ry="26" fill="#5b1d8a"/>
+  <ellipse cx="200" cy="147" rx="80" ry="23" fill="#3a1457"/>
+  <circle cx="273" cy="140" r="12" fill="#ff8c42"/><circle cx="267" cy="144" r="10" fill="#fff7e6"/><circle cx="193" cy="155" r="7" fill="#fff7e6"/><circle cx="215" cy="119" r="7" fill="#fff7e6"/><circle cx="251" cy="127" r="11" fill="#ffd23f"/><circle cx="197" cy="158" r="7" fill="#c46b2b"/>
+  <!-- colher -->
+  <g transform="rotate(18 300 120)">
+    <rect x="296" y="120" width="8" height="90" rx="4" fill="#fbf3e0"/>
+    <ellipse cx="300" cy="118" rx="16" ry="22" fill="#fbf3e0"/>
+  </g>
+</svg>

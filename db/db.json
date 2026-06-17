@@ -1,0 +1,552 @@
+{
+  "tamanhos": [
+    {
+      "id": 1,
+      "descricao": "Pequeno - 300ml",
+      "valor_extra": 0
+    },
+    {
+      "id": 2,
+      "descricao": "Médio - 500ml",
+      "valor_extra": 5
+    },
+    {
+      "id": 3,
+      "descricao": "Grande - 700ml",
+      "valor_extra": 9
+    },
+    {
+      "id": 4,
+      "descricao": "Família - 1 Litro",
+      "valor_extra": 15
+    }
+  ],
+  "status_pedido": [
+    {
+      "id": 1,
+      "descricao": "Pedido recebido"
+    },
+    {
+      "id": 2,
+      "descricao": "Em preparo"
+    },
+    {
+      "id": 3,
+      "descricao": "Saiu para entrega"
+    },
+    {
+      "id": 4,
+      "descricao": "Entregue"
+    },
+    {
+      "id": 5,
+      "descricao": "Pendente"
+    },
+    {
+      "id": 6,
+      "descricao": "Cancelado"
+    }
+  ],
+  "opcionais": {
+    "complemento": [
+      {
+        "id": 1,
+        "nome": "Granola crocante",
+        "descricao": "Granola artesanal torrada",
+        "foto": "/img/complemento.svg",
+        "valor": 3,
+        "eh_novidade": false
+      },
+      {
+        "id": 2,
+        "nome": "Leite condensado",
+        "descricao": "Fio generoso de leite condensado",
+        "foto": "/img/complemento.svg",
+        "valor": 3,
+        "eh_novidade": false
+      },
+      {
+        "id": 3,
+        "nome": "Banana em rodelas",
+        "descricao": "Banana nanica fresca",
+        "foto": "/img/complemento.svg",
+        "valor": 2,
+        "eh_novidade": false
+      },
+      {
+        "id": 4,
+        "nome": "Morango fresco",
+        "descricao": "Morangos selecionados",
+        "foto": "/img/complemento.svg",
+        "valor": 5,
+        "eh_novidade": true
+      },
+      {
+        "id": 5,
+        "nome": "Paçoca esfarelada",
+        "descricao": "Paçoca de amendoim",
+        "foto": "/img/complemento.svg",
+        "valor": 3,
+        "eh_novidade": false
+      },
+      {
+        "id": 6,
+        "nome": "Nutella",
+        "descricao": "Creme de avelã Nutella",
+        "foto": "/img/complemento.svg",
+        "valor": 6,
+        "eh_novidade": true
+      },
+      {
+        "id": 7,
+        "nome": "Leite em pó Ninho",
+        "descricao": "Leite em pó premium",
+        "foto": "/img/complemento.svg",
+        "valor": 4,
+        "eh_novidade": false
+      }
+    ],
+    "bebidas": [
+      {
+        "id": 1,
+        "nome": "Água Mineral 500ml",
+        "descricao": "",
+        "foto": "/img/bebida.svg",
+        "valor": 4,
+        "eh_novidade": false
+      },
+      {
+        "id": 2,
+        "nome": "Suco de Laranja 300ml",
+        "descricao": "Natural da fruta",
+        "foto": "/img/bebida.svg",
+        "valor": 8,
+        "eh_novidade": false
+      },
+      {
+        "id": 3,
+        "nome": "Guaraná Lata 350ml",
+        "descricao": "",
+        "foto": "/img/bebida.svg",
+        "valor": 6,
+        "eh_novidade": false
+      },
+      {
+        "id": 4,
+        "nome": "Água de Coco 330ml",
+        "descricao": "Refrescante e natural",
+        "foto": "/img/bebida.svg",
+        "valor": 7,
+        "eh_novidade": true
+      }
+    ]
+  },
+  "menu": {
+    "limitado": [
+      {
+        "id": 1,
+        "nome": "Açaí da Casa - Edição Limitada",
+        "foto": "/img/acai-limitado.svg",
+        "descricao": "Açaí puro batido na hora com banana e morango, finalizado com granola crocante, leite condensado, paçoca e raspas de chocolate. Disponível por tempo limitado.",
+        "valor": 32,
+        "eh_novidade": true
+      }
+    ],
+    "acais": [
+      {
+        "id": 1,
+        "nome": "Tradicional",
+        "foto": "/img/acai-1.svg",
+        "descricao": "Açaí puro e cremoso batido na hora, do jeito que o paraense gosta. Cremosidade equilibrada, sem adição de xaropes, pronto para receber seus complementos favoritos.",
+        "valor": 18,
+        "eh_novidade": false
+      },
+      {
+        "id": 2,
+        "nome": "Banana & Granola",
+        "foto": "/img/acai-2.svg",
+        "descricao": "Clássico que nunca falha: açaí cremoso com banana batida na massa, finalizado com granola artesanal torrada e um toque de mel. Energia e crocância em cada colher.",
+        "valor": 22,
+        "eh_novidade": false
+      },
+      {
+        "id": 3,
+        "nome": "Morango Power",
+        "foto": "/img/acai-3.svg",
+        "descricao": "Açaí batido com morango fresco, coberto com mais morangos, leite condensado e granola. Refrescante, levemente ácido e irresistível para quem ama frutas vermelhas.",
+        "valor": 26,
+        "eh_novidade": true
+      },
+      {
+        "id": 4,
+        "nome": "Tropical Manga",
+        "foto": "/img/acai-4.svg",
+        "descricao": "Açaí com camada de creme de manga, raspas de coco e granola. Uma viagem tropical com o dulçor da manga equilibrando a intensidade do açaí.",
+        "valor": 25,
+        "eh_novidade": true
+      },
+      {
+        "id": 5,
+        "nome": "Ninho com Nutella",
+        "foto": "/img/acai-5.svg",
+        "descricao": "Para os gulosos: açaí cremoso coberto com leite em pó Ninho, fios de Nutella, banana e granola. A combinação mais pedida da casa, pura indulgência.",
+        "valor": 28,
+        "eh_novidade": false
+      },
+      {
+        "id": 6,
+        "nome": "Fit Proteico",
+        "foto": "/img/acai-6.svg",
+        "descricao": "Açaí sem açúcar adicionado, batido com pasta de amendoim e scoop de whey baunilha, finalizado com banana e granola fit. Energia limpa pré ou pós-treino.",
+        "valor": 27,
+        "eh_novidade": true
+      },
+      {
+        "id": 7,
+        "nome": "Kids Coloridinho",
+        "foto": "/img/acai-7.svg",
+        "descricao": "Porção carinho para a criançada: açaí docinho coberto com confeitos coloridos, leite condensado, banana e granola. Diversão garantida do começo ao fim.",
+        "valor": 20,
+        "eh_novidade": false
+      }
+    ]
+  },
+  "pedidos": [
+    {
+      "id": 1,
+      "nome": "Marina Souza",
+      "tamanho": {
+        "id": 2,
+        "descricao": "Médio - 500ml",
+        "valor_extra": 5
+      },
+      "bebidas": [
+        {
+          "id": 4,
+          "nome": "Água de Coco 330ml",
+          "descricao": "Refrescante e natural",
+          "foto": "/img/bebida.svg",
+          "valor": 7,
+          "eh_novidade": true
+        }
+      ],
+      "complemento": [
+        {
+          "id": 1,
+          "nome": "Granola crocante",
+          "descricao": "Granola artesanal torrada",
+          "foto": "/img/complemento.svg",
+          "valor": 3,
+          "eh_novidade": false
+        },
+        {
+          "id": 3,
+          "nome": "Banana em rodelas",
+          "descricao": "Banana nanica fresca",
+          "foto": "/img/complemento.svg",
+          "valor": 2,
+          "eh_novidade": false
+        }
+      ],
+      "acai": {
+        "id": 2,
+        "nome": "Banana & Granola",
+        "foto": "/img/acai-2.svg",
+        "descricao": "Clássico que nunca falha: açaí cremoso com banana batida na massa, finalizado com granola artesanal torrada e um toque de mel.",
+        "valor": 22,
+        "eh_novidade": false
+      },
+      "statusId": "2"
+    },
+    {
+      "nome": "Ana",
+      "tamanho": {
+        "id": 3,
+        "descricao": "Grande - 700ml"
+      },
+      "complemento": [
+        {
+          "id": 1,
+          "nome": "Granola crocante"
+        }
+      ],
+      "bebidas": [
+        {
+          "id": 4,
+          "nome": "Água de Coco 330ml"
+        }
+      ],
+      "acai": {
+        "id": 3,
+        "nome": "Morango Power",
+        "foto": "/img/acai-3.svg"
+      },
+      "statusId": "1",
+      "id": 2
+    },
+    {
+      "nome": "Lucas",
+      "tamanho": {
+        "id": 2,
+        "descricao": "Médio - 500ml",
+        "valor_extra": 5
+      },
+      "complemento": [
+        {
+          "id": 3,
+          "nome": "Banana em rodelas",
+          "descricao": "Banana nanica fresca",
+          "foto": "/img/complemento.svg",
+          "valor": 2,
+          "eh_novidade": false
+        },
+        {
+          "id": 6,
+          "nome": "Nutella",
+          "descricao": "Creme de avelã Nutella",
+          "foto": "/img/complemento.svg",
+          "valor": 6,
+          "eh_novidade": true
+        },
+        {
+          "id": 5,
+          "nome": "Paçoca esfarelada",
+          "descricao": "Paçoca de amendoim",
+          "foto": "/img/complemento.svg",
+          "valor": 3,
+          "eh_novidade": false
+        },
+        {
+          "id": 4,
+          "nome": "Morango fresco",
+          "descricao": "Morangos selecionados",
+          "foto": "/img/complemento.svg",
+          "valor": 5,
+          "eh_novidade": true
+        }
+      ],
+      "bebidas": [
+        {
+          "id": 1,
+          "nome": "Água Mineral 500ml",
+          "descricao": "",
+          "foto": "/img/bebida.svg",
+          "valor": 4,
+          "eh_novidade": false
+        }
+      ],
+      "acai": {
+        "id": 1,
+        "nome": "Tradicional",
+        "foto": "/img/acai-1.svg",
+        "descricao": "Açaí puro e cremoso batido na hora, do jeito que o paraense gosta. Cremosidade equilibrada, sem adição de xaropes, pronto para receber seus complementos favoritos.",
+        "valor": 18,
+        "eh_novidade": false
+      },
+      "statusId": "5",
+      "id": 3
+    },
+    {
+      "nome": "Yan",
+      "tamanho": {
+        "id": 3,
+        "descricao": "Grande - 700ml",
+        "valor_extra": 9
+      },
+      "complemento": [
+        {
+          "id": 2,
+          "nome": "Leite condensado",
+          "descricao": "Fio generoso de leite condensado",
+          "foto": "/img/complemento.svg",
+          "valor": 3,
+          "eh_novidade": false
+        },
+        {
+          "id": 5,
+          "nome": "Paçoca esfarelada",
+          "descricao": "Paçoca de amendoim",
+          "foto": "/img/complemento.svg",
+          "valor": 3,
+          "eh_novidade": false
+        },
+        {
+          "id": 4,
+          "nome": "Morango fresco",
+          "descricao": "Morangos selecionados",
+          "foto": "/img/complemento.svg",
+          "valor": 5,
+          "eh_novidade": true
+        },
+        {
+          "id": 7,
+          "nome": "Leite em pó Ninho",
+          "descricao": "Leite em pó premium",
+          "foto": "/img/complemento.svg",
+          "valor": 4,
+          "eh_novidade": false
+        }
+      ],
+      "bebidas": [
+        {
+          "id": 3,
+          "nome": "Guaraná Lata 350ml",
+          "descricao": "",
+          "foto": "/img/bebida.svg",
+          "valor": 6,
+          "eh_novidade": false
+        }
+      ],
+      "acai": {
+        "id": 2,
+        "nome": "Banana & Granola",
+        "foto": "/img/acai-2.svg",
+        "descricao": "Clássico que nunca falha: açaí cremoso com banana batida na massa, finalizado com granola artesanal torrada e um toque de mel. Energia e crocância em cada colher.",
+        "valor": 22,
+        "eh_novidade": false
+      },
+      "statusId": 1,
+      "id": 4
+    },
+    {
+      "nome": "Pollyana",
+      "tamanho": {
+        "id": 3,
+        "descricao": "Grande - 700ml",
+        "valor_extra": 9
+      },
+      "complemento": [
+        {
+          "id": 1,
+          "nome": "Granola crocante",
+          "descricao": "Granola artesanal torrada",
+          "foto": "/img/complemento.svg",
+          "valor": 3,
+          "eh_novidade": false
+        },
+        {
+          "id": 3,
+          "nome": "Banana em rodelas",
+          "descricao": "Banana nanica fresca",
+          "foto": "/img/complemento.svg",
+          "valor": 2,
+          "eh_novidade": false
+        },
+        {
+          "id": 4,
+          "nome": "Morango fresco",
+          "descricao": "Morangos selecionados",
+          "foto": "/img/complemento.svg",
+          "valor": 5,
+          "eh_novidade": true
+        },
+        {
+          "id": 5,
+          "nome": "Paçoca esfarelada",
+          "descricao": "Paçoca de amendoim",
+          "foto": "/img/complemento.svg",
+          "valor": 3,
+          "eh_novidade": false
+        },
+        {
+          "id": 6,
+          "nome": "Nutella",
+          "descricao": "Creme de avelã Nutella",
+          "foto": "/img/complemento.svg",
+          "valor": 6,
+          "eh_novidade": true
+        },
+        {
+          "id": 7,
+          "nome": "Leite em pó Ninho",
+          "descricao": "Leite em pó premium",
+          "foto": "/img/complemento.svg",
+          "valor": 4,
+          "eh_novidade": false
+        },
+        {
+          "id": 2,
+          "nome": "Leite condensado",
+          "descricao": "Fio generoso de leite condensado",
+          "foto": "/img/complemento.svg",
+          "valor": 3,
+          "eh_novidade": false
+        }
+      ],
+      "bebidas": [
+        {
+          "id": 3,
+          "nome": "Guaraná Lata 350ml",
+          "descricao": "",
+          "foto": "/img/bebida.svg",
+          "valor": 6,
+          "eh_novidade": false
+        }
+      ],
+      "acai": {
+        "id": 2,
+        "nome": "Banana & Granola",
+        "foto": "/img/acai-2.svg",
+        "descricao": "Clássico que nunca falha: açaí cremoso com banana batida na massa, finalizado com granola artesanal torrada e um toque de mel. Energia e crocância em cada colher.",
+        "valor": 22,
+        "eh_novidade": false
+      },
+      "statusId": "3",
+      "id": 5
+    },
+    {
+      "nome": "Vanilda",
+      "tamanho": {
+        "id": 4,
+        "descricao": "Família - 1 Litro",
+        "valor_extra": 15
+      },
+      "complemento": [
+        {
+          "id": 2,
+          "nome": "Leite condensado",
+          "descricao": "Fio generoso de leite condensado",
+          "foto": "/img/complemento.svg",
+          "valor": 3,
+          "eh_novidade": false
+        },
+        {
+          "id": 1,
+          "nome": "Granola crocante",
+          "descricao": "Granola artesanal torrada",
+          "foto": "/img/complemento.svg",
+          "valor": 3,
+          "eh_novidade": false
+        },
+        {
+          "id": 3,
+          "nome": "Banana em rodelas",
+          "descricao": "Banana nanica fresca",
+          "foto": "/img/complemento.svg",
+          "valor": 2,
+          "eh_novidade": false
+        }
+      ],
+      "bebidas": [
+        {
+          "id": 4,
+          "nome": "Água de Coco 330ml",
+          "descricao": "Refrescante e natural",
+          "foto": "/img/bebida.svg",
+          "valor": 7,
+          "eh_novidade": true
+        }
+      ],
+      "acai": {
+        "id": 1,
+        "nome": "Tradicional",
+        "foto": "/img/acai-1.svg",
+        "descricao": "Açaí puro e cremoso batido na hora, do jeito que o paraense gosta. Cremosidade equilibrada, sem adição de xaropes, pronto para receber seus complementos favoritos.",
+        "valor": 18,
+        "eh_novidade": false
+      },
+      "statusId": "4",
+      "id": 6
+    }
+  ]
+}
