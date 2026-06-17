@@ -12,10 +12,10 @@ redirecionamento e atualização em tempo real.
 
 | Recurso | Link |
 | ------- | ---- |
-| 🌐 **Aplicação em produção (Vercel)** | `https://SEU-PROJETO.vercel.app` |
+| 🌐 **Aplicação em produção (Vercel)** | `https://acai-tropical-pp9q5y5h0-acai-tropical.vercel.app` |
 | 🗄️ **API mockada (Render / JSON Server)** | `https://banco-json.onrender.com` |
-| 💻 **Repositório do front-end** | `https://github.com/SEU-USUARIO/acai-tropical` |
-| 🗃️ **Repositório do banco-json** | `https://github.com/SEU-USUARIO/banco-json` |
+| 💻 **Repositório do front-end** | `https://github.com/lucas-kauanogb/acai-tropical` |
+| 🗃️ **Repositório do banco-json** | `https://github.com/lucas-kauanogb/banco-json` |
 
 > Substitua os links acima pelos endereços reais gerados nos seus deploys.
 
@@ -192,25 +192,6 @@ npm run serve          # http://localhost:8080
 
 > O arquivo `.env.development` já aponta `VUE_APP_API_BASE_URL` para
 > `http://localhost:3000`. Use `.env.exemplo` como referência.
-
----
-
-## 5. Deploy
-
-### Front-end na Vercel
-
-1. Suba este projeto em um repositório no GitHub.
-2. Na [Vercel](https://vercel.com), importe o repositório (framework Vue detectado).
-3. Em **Settings → Environment Variables**, adicione:
-   - `VUE_APP_API_BASE_URL` = URL pública da sua API na Render.
-4. O `vercel.json` já configura o build (`npm run build`, saída `dist`) e os
-   *rewrites* de SPA para o Vue Router funcionar em qualquer rota.
-
-### Banco (JSON Server) na Render
-
-Instruções completas no repositório **banco-json**. Resumo: criar um *Web Service*
-gratuito apontando para o repositório, com `Build Command: npm install` e
-`Start Command: npm start`.
 
 ---
 
