@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div ref="topoAlerta"></div>
     <AlertaComponent
       :tipo="alerta.tipo"
       :mensagem="alerta.mensagem"
@@ -108,6 +109,14 @@ export default {
   methods: {
     mostrarAlerta(tipo, mensagem) {
       this.alerta = { visivel: true, tipo, mensagem };
+      this.$nextTick(() => {
+        if (this.$refs.topoAlerta) {
+          this.$refs.topoAlerta.scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+          });
+        }
+      });
     },
     async getTamanhos() {
       const response = await fetch(`${this.$apiUrl}/tamanhos`);
