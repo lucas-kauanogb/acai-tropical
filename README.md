@@ -12,7 +12,7 @@ redirecionamento e atualização em tempo real.
 
 | Recurso | Link |
 | ------- | ---- |
-| 🌐 **Aplicação em produção (Vercel)** | `https://acai-tropical-pp9q5y5h0-acai-tropical.vercel.app` |
+| 🌐 **Aplicação em produção (Vercel)** | `https://acai-tropical-pp9q5y5h0-acai-tropical.vercel.app?_vercel_share=KNz2XwDQMMHE6YKTF3tplkZVWy2H1ijO` |
 | 🗄️ **API mockada (Render / JSON Server)** | `https://banco-json.onrender.com` |
 | 💻 **Repositório do front-end** | `https://github.com/lucas-kauanogb/acai-tropical` |
 | 🗃️ **Repositório do banco-json** | `https://github.com/lucas-kauanogb/banco-json` |
